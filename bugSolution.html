@@ -1,0 +1,9 @@
+The solution is to avoid using the `@apply` directive with pseudo-selector classes.  Instead, directly apply the desired classes to the element:
+
+```html
+<button class="hover:bg-blue-500">
+  Click me
+</button>
+```
+
+This approach ensures that the pseudo-selector styles are correctly applied by Tailwind CSS.
